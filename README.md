@@ -35,7 +35,6 @@ cp -r ~/apfree_wifidog/package/luci-app-apfree_wifidog/ ~/kos/feeds/luci/applica
 cp -r ~/apfree_wifidog/package/libevent2/ ~/lede/package/libs/
 #进入{项目}目录
 cd lede/
-
 #删除临时文件
 rm -rf tmp/
 #更新feeds
