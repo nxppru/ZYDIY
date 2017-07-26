@@ -1,0 +1,4 @@
+src-git packages https://git.kos.org.cn/openkos/packages.git
+src-git luci https://git.kos.org.cn/openkos/luci.git
+src-git routing https://git.kos.org.cn/openkos/routing.git
+src-git telephony https://git.kos.org.cn/openkos/telephony.git

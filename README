@@ -1,0 +1,17 @@
+KOS是基于LEDE分支的一个发行版。
+请使用"make menuconfig"选择工具链和固件配置
+编译环境需要安装：
+gcc, binutils, bzip2, flex, python, perl, make,find, grep, diff, unzip, gawk, getopt, subversion, libz-dev, libc
+在源码的根目录运行 "make package/symlinks" 自动下载扩展包,安装扩展包.
+
+使用 "make menuconfig" 选择好配置后
+如果您是第一次配置,建议使用"make download V=s"下载源码包.
+如果想多线程编译编译,请使用"make -j(线程数)",如果中间出错,请使用"make V=s"排除错误
+建立工具链，编译内核和你选中的插件包。
+
+源地址：
+	https://git.kos.org.cn/openkos/source
+
+开源 免费 大家一起玩
+
+  开发组QQ群：39229760
