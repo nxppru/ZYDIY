@@ -1,27 +1,28 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jd_sign
+  name:nxppru
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jd_sign
-  template:
+      app: nxppru
+      
+template:
     metadata:
       labels:
-        app: jd_sign
+        app:nxppru
     spec:
       containers:
-      - image: nxppru/my:v1
-        name: jd_sign
+      - image: okteto/nxppru:jdsign
+        name:nxppru
 
 ---
 
 apiVersion: v1
 kind: Service
 metadata:
-  name: jd_sign
+  name:nxppru
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
